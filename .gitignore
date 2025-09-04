@@ -1,0 +1,8 @@
+.venv
+uv.lock
+__pycache__/
+code/weights/*
+data_eval/*
+data_train/*
+data_raw/*
+results
