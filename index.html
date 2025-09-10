@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="ee2LoyOP2SBivG7cNkCIMc1w9RSgjbd37CwXlGuydew" />
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
@@ -91,12 +92,12 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/k2zm/SfPTER-ICCP2025" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code & Dataset (Coming Soon)</span>
+                    <span>Code & Dataset</span>
                   </a>
                 </span>
 
@@ -118,11 +119,30 @@
   </div>
 </section>
 
+<!-- Teaser image -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-quarters">
+          <figure class="image">
+            <img src="static/images/teaser.png" alt="teaser image"/>
+          </figure>
+          <div class="content mt-4">
+            <p class="has-text-weight-semibold is-size-5">TL;DR: Shape from Polarization in the LWIR spectrum, works even on visibly transparent or dark materials</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section  is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -135,20 +155,74 @@
 </section>
 <!-- End paper abstract -->
 
+
+<!-- Thermal Polarization Images -->
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Thermal Polarization Images</h2>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <!-- Visible -->
+      <div class="column">
+        <h3 class="title is-4 has-text-centered">Visible Spectrum</h3>
+        <div class="pol-grid">
+          <div class="pol-label">Radiance</div>
+          <div class="pol-label">Degree of Polarization</div>
+          <div class="pol-label">Angle of Polarization</div>
+
+          <figure class="pol-img"><img src="static/images/vis_intensity_1.jpeg" alt="Visible Intensity 1"></figure>
+          <figure class="pol-img"><img src="static/images/vis_dop_1.jpeg"       alt="Visible DoP 1"></figure>
+          <figure class="pol-img"><img src="static/images/vis_aop_1.jpeg"       alt="Visible AoP 1"></figure>
+
+          <figure class="pol-img"><img src="static/images/vis_intensity_2.jpeg" alt="Visible Intensity 2"></figure>
+          <figure class="pol-img"><img src="static/images/vis_dop_2.jpeg"       alt="Visible DoP 2"></figure>
+          <figure class="pol-img"><img src="static/images/vis_aop_2.jpeg"       alt="Visible AoP 2"></figure>
+        </div>
+      </div>
+
+      <!-- LWIR -->
+      <div class="column">
+        <h3 class="title is-4 has-text-centered">LWIR Spectrum</h3>
+        <div class="pol-grid">
+          <div class="pol-label">Radiance</div>
+          <div class="pol-label">Degree of Polarization</div>
+          <div class="pol-label">Angle of Polarization</div>
+
+          <figure class="pol-img"><img src="static/images/lwir_intensity_1.jpeg" alt="LWIR Intensity 1"></figure>
+          <figure class="pol-img"><img src="static/images/lwir_dop_1.jpeg"       alt="LWIR DoP 1"></figure>
+          <figure class="pol-img"><img src="static/images/lwir_aop_1.jpeg"       alt="LWIR AoP 1"></figure>
+
+          <figure class="pol-img"><img src="static/images/lwir_intensity_2.jpeg" alt="LWIR Intensity 2"></figure>
+          <figure class="pol-img"><img src="static/images/lwir_dop_2.jpeg"       alt="LWIR DoP 2"></figure>
+          <figure class="pol-img"><img src="static/images/lwir_aop_2.jpeg"       alt="LWIR AoP 2"></figure>
+        </div>
+      </div>
+    </div>
+    <h2 class="subtitle has-text-centered">
+      LWIR polarization is less affected by transparency and albedo variation, making it more suitable for shape estimation.
+    </h2>
+  </div>
+</section>
+<!-- End Thermal Polarization Images -->
+
 <!-- Video carousel -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Melting Ice</h2>
+      <h2 class="title is-3 has-text-centered">Melting Ice</h2>
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+        <div class="column is-half">
           <video poster="" id="teaser" autoplay controls muted loop height="100%">
             <source src="static/videos/melting_ice.mp4"
             type="video/mp4">
           </video>
           <h2 class="subtitle has-text-centered">
-            Measuring the deformation of transparent ice in a completely passive way.
+            Even the deformation of transparent ice can be measured in a completely passive way.
           </h2>
         </div>
       </div>
@@ -179,7 +253,7 @@
 @inproceedings{kitazawa2025shape,
   title={Shape from Polarization of Thermal Emission and Reflection},
   author={Kitazawa, Kazuma and Takatani, Tsuyoshi},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computational Photography (ICCP)},
+  booktitle={Proceedings of the IEEE International Conference on Computational Photography (ICCP)},
   pages={171--181},
   year={2025},
   organization={IEEE}

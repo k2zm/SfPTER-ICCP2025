@@ -135,3 +135,21 @@ body {
 
 
 
+
+.pol-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto auto auto;
+  column-gap: 0.5rem; 
+  row-gap: 0.5rem;    
+  align-items: start;
+}
+.pol-label {
+  text-align: center;
+}
+.pol-img { margin: 0; }
+.pol-img img {
+  display: block;
+  width: 100%;
+  height: auto; 
+}
