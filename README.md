@@ -30,7 +30,7 @@ $ source .venv/bin/activate
 
 ## Dataset and Pretrained Weights
 
-You can download the datasets and pretrained weights from the [**Releases**](#).
+You can download the datasets and pretrained weights from the [**Releases**](https://github.com/k2zm/SfPTER-ICCP2025/releases/tag/v1.0.0).
 
   * **`data_eval.zip`**: Contains the evaluation datasets `ThermoPol16` and `ThermoPolSpheres` (Stokes vectors, ground truth surface normals, masks).
   * **`data_train.zip`**: Contains the synthetic training dataset `ThermoPolSynth` (Stokes vectors, surface normals, masks, etc.).
