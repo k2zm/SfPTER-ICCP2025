@@ -85,11 +85,10 @@ $ code/train.py
 
 ```
 @inproceedings{kitazawa2025shape,
-  title={Shape from Polarization of Thermal Emission and Reflection},
+  title={Shape from Polarization of Thermal Emission and Reflection}, 
   author={Kitazawa, Kazuma and Takatani, Tsuyoshi},
-  booktitle={Proceedings of the IEEE International Conference on Computational Photography (ICCP)},
-  pages={171--181},
+  booktitle={2025 IEEE International Conference on Computational Photography (ICCP)}, 
   year={2025},
-  organization={IEEE}
-}
+  pages={1-11},
+  doi={10.1109/ICCP64821.2025.11143836}}
 ```
